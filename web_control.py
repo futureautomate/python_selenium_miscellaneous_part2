@@ -10,7 +10,7 @@ import time
 
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
-driver = webdriver.Chrome('F:\Channel\webdriver\chromedriver.exe', options=options)
+driver = webdriver.Chrome('driver path', options=options)
 time.sleep(3)
 
 driver.get('http://google.com')
